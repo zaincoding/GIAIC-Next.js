@@ -1,7 +1,8 @@
 
 import react from 'react';
 import Image from 'next/image';
-// import { Header } from '@/components/Header/header';
+import Header from '@/components/Header/header';
+import Link from 'next/link';
 
 // export default function Home(){
 
@@ -18,7 +19,6 @@ import Image from 'next/image';
 // }
 
 
-import Head from '@/components/Header/header';
 export default function Home(){
 
   return(
@@ -29,12 +29,12 @@ export default function Home(){
     // <div>This is page content</div>
     // </div>
 
-    //by default flex row   
+    //by default flex is row-oriented   
     // flex horizaontal the items.
     // 
 
     <div className='h-screen'>
-      <Head />
+      <Header />
 
       <div className='flex  h-[80%]'>
         <div className='w-1/2   flex-col justify-center  items-start m-12' >
@@ -45,15 +45,15 @@ export default function Home(){
         ,
 </p>
 
-        <button>Contact Us</button>
+        <button className='bg-slate-950 text-yellow-100 rounded-md p-2 my-10 font-bold'>Contact Us</button>
          
         </div>
         <div className='w-1/2 justify-center items-center'>
-         
-        <Image  src="/images/download.png" alt="Hero image"  
+         <Link  href='https://www.figma.com/design/Un4OAyUpYG6NosQzc6BEQE/Untitled?node-id=1-3&node-type=frame&t=fBU8eguoQzzbLF6y-0' target='_blank'>
+        <Image  src="/images/philip.svg" alt="Hero image"  
         width={502}
          height={465}/>
-
+</Link>
          </div>
       </div>
     </div>
