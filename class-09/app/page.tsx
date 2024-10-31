@@ -44,8 +44,13 @@ export default function Home(){
         In aliquam sed risus ut maximus. Suspendisse congue dolor ut est consectetur
         ,
 </p>
-
-        <button className='bg-slate-950 text-yellow-100 rounded-md p-2 my-10 font-bold'>Contact Us</button>
+{/* 
+        <button className='bg-slate-950 text-yellow-100 rounded-md p-2 my-10 font-bold'>Contact Us</button> */}
+        <button style={{background: "#121212"}} className='w-[237px] h-[66px] 
+         m'>
+         <span className='text-[28px] 
+           font-inter' style={{color: "#FFFFFF"
+         }} >Contact Us</span></button>
          
         </div>
         <div className='w-1/2 justify-center items-center'>
