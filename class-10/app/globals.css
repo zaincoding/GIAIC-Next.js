@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: inter;
+}
+
+ /* .header{
+  font-weight: 700;
+  font-size: 100px
+} */
+
+/* @media (max-width: 768px){
+
+
+   .header{
+    font-size:  50px;
+  }
+
+}  */
+
+ /* @media(min-width:  320px){ 
+
+   .header{
+
+    color: blue;
+  }  */
+
+   /* #box2{
+    background-color: red;
+    border: 3px solid green !important;
+  }  */
+   /* #box2 {
+      display:block;
+  }  */
+
+   /* #box1{
+    visibility: hidden;
+  } 
+}  */
+/* 100vh  or h-screen = takes the full  height of screen 
+
+/* if  50%  = 50%  of parent height not screen*/
+/* .main{
+  display:flex;
+  gap: 5px;
+  justify-content: center;
+   height: vh100;
+
+}  */
+ /* .box{
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+  background-color: rgb(7, 22, 226);
+ border: 3px solid black;
+}  */
+
